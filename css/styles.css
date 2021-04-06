@@ -54,3 +54,23 @@ body {
 	color: gold;
 	background-color: #222;
 }
+@media (max-width: 650px){
+	.sitenav__container {
+		justify-content: center;
+	}
+	.sitenav__logo {
+		margin: 15px 0;	
+	}
+	.sitenav__list {
+		max-width: 100%;
+		justify-content: center;
+	}
+}
+@media (max-width: 500px){
+	.sitenav__list {
+		flex-direction: column;
+	}
+	.sitenav__link {
+		text-align: center;
+	}
+}
